@@ -1,0 +1,8 @@
+bin
+obj
+/FirstStepsInCoding/.vs/FirstStepsInCoding/DesignTimeBuild/*.v2
+/FirstStepsInCoding/.vs/FirstStepsInCoding/v16/*.suo
+/FirstStepsInCoding/FirstStepsInCoding.sln
+*.suo
+*.sln
+*.v2
