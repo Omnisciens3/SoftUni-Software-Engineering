@@ -1,0 +1,1 @@
+NOTE: For the program to work please extract "06.ZipАndExtract" folder from the .zip file on your desktop!
