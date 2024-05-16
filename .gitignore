@@ -1,0 +1,30 @@
+CSharp-DB/*.txt
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+*.swp
+
+# C# and .NET specific
+bin/
+obj/
+*.user
+*.suo
+*.dll
+*.exe
+*.pdb
+*.cache
+packages/
+
+# IDEs and Editors
+.vs/
+.vscode/
+*.sublime-workspace
+
+# Other common directories and files
+node_modules/
+build/
+dist/
+.env
+*.pfx
