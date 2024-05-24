@@ -3,8 +3,8 @@ USE [Random];
 
 CREATE TABLE [Persons] (
 	[PersonID] INT,
-	[FirstName] VARCHAR(30) NOT NULL,
-	[Salary] VARCHAR(100) NOT NULL,
+	[FirstName] NVARCHAR(30) NOT NULL,
+	[Salary] DECIMAL(8, 2) NOT NULL,
 	[PassportID] INT NOT NULL
 );
 
@@ -20,9 +20,9 @@ INSERT INTO [Passports](PassportID, PassportNumber) VALUES
 (103, 'ZE657QP2')
 
 INSERT INTO [Persons]([PersonID], [FirstName], [Salary], [PassportID]) VALUES
-(1, 'Roberto', '56100.00', 102),
-(2, 'Tom', '43300.00', 103),
-(3, 'Yana', '60200.00', 101)
+(1, 'Roberto', 56100.00, 102),
+(2, 'Tom', 43300.00, 103),
+(3, 'Yana', 60200.00, 101)
 
 ALTER TABLE [Persons]
 ALTER COLUMN PersonID INT NOT NULL;
